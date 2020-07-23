@@ -1,0 +1,109 @@
+html,body{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif!important
+    ;
+}
+#root, .App{
+    height: 100%;
+}
+header .top{
+    padding:10px;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+header .top h2{
+    margin:0;
+    color:#fff;
+    font-size: 14px;
+}
+header .tool{
+    padding: 0 3% 0 3%;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+header .tool .search,
+header .tool .me{
+    flex:1
+}
+header .tool .logo{
+    display: flex;
+    justify-content: center;
+    flex:2
+}
+header .tool .me{
+    display: flex;
+    justify-content: flex-end;
+}
+header .tool .me i{
+    margin-right: 5%;
+}
+header .tool .search button{
+    background: #fff;
+    border:none;
+    color:black;
+    font-size: 12px;
+}
+header .tool .search {
+    display: flex;
+    align-items: center;
+}
+header .tool .search p{
+    margin:0;
+    font-size: 12px;
+}
+header .tool .search .search__search{
+    display: flex;
+    align-items: center; 
+}
+header .tool .search .search__search i {
+    font-size:11px;
+    margin: 0px 10px 0px 10px;
+}
+header .menu {
+    margin-bottom: 20px;
+}
+header .menu ul {
+    margin:0;
+    display: flex;
+    width:100% ;
+    list-style: none;
+    justify-content: center;
+}
+header .menu ul li{
+    padding:0px 15px 0px 15px;
+    font-size: 12px;
+    list-style: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.carousel-item{
+    height: 600px;
+}
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+.text{
+    margin: 40px 0 40px 0;
+    padding:0 30% 0 30%;
+    font-size: 12px;
+}
+.list img{
+    width: 100%;
+}
+.mtop25{
+    margin-top:25px
+}
+.footer{
+    background: gray;
+}
+.footer .container{
+    padding:5% 0 3% 0;
+}
+.footer .container ul li{
+    list-style: none;
+    color:#fff
+}
